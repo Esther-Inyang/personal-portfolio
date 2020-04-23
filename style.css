@@ -370,7 +370,7 @@ footer{
     border: 2px dotted #00bfff;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     html{
         font-size: 62.5%;
     }
@@ -468,7 +468,7 @@ footer{
 
 }
 
-@media (max-width: 380px) {
+@media only screen and (max-width: 380px) {
     
     /*weclome-section*/
     #welcome{
